@@ -1,9 +1,10 @@
 import React from 'react'
+import {Container} from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 const Login = () => {
 	return (
-		<div><Form>
+		<Container><Form>
 		<Form.Group className="mb-3" controlId="formBasicEmail">
 		  <Form.Label>Email address</Form.Label>
 		  <Form.Control type="email" placeholder="Enter email" />
@@ -22,7 +23,7 @@ const Login = () => {
 		<Button variant="primary" type="submit">
 		  Submit
 		</Button>
-	  </Form></div>
+	  </Form></Container>
 	)
 }
 
